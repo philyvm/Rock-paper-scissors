@@ -71,3 +71,23 @@ body {
     margin: 0 20px;
     font-size: 19px;
 }
+
+.GameEnd {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.GameEnd p {
+    font-size: 19px;
+}
+
+.GameEnd button{
+    padding: 20px;
+    border: solid 5px;
+    border-color: #444343;
+    border-radius: 30px;
+    margin-top: 30px;
+    
+
+}
