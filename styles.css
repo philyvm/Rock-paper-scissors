@@ -1,0 +1,73 @@
+body {
+    font-family:'Roboto';
+    color: azure;
+    
+    
+}
+
+.Header {
+    text-align: center;
+    color: #444343;
+    font-size: 25px;
+}
+
+.BrownColour {
+    color: #c7ab8c;
+}
+
+.GreenColour {
+    color: #a1d384;
+}
+
+.YellowColour {
+    color: #ddcb67;
+}
+
+.MainArea{
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 30px auto;
+}
+.WeaponArea {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 5px;
+    border-color: #444343;
+    border-radius: 20px;
+}
+
+.ChoiceButton {
+    background-color: transparent;
+    border: none;
+}
+
+.ChoiceIcon {
+    margin: 50px;
+    transition: all .3s;
+}
+
+.ChoiceIcon:hover {
+    cursor: pointer;
+    transition: all .3s;
+    transform: scale(1.4);
+
+}
+
+.MainGameOutput {
+    display: flex;
+    color: #444343;
+    margin-top: 30px;
+    border: 5px solid;
+    border-radius: 30px;
+}
+
+.GameOutput p {
+    margin: 19px 0 -30px 19px;
+    font-size: 19px;
+}
+
+.GameStats {
+    margin: 0 20px;
+    font-size: 19px;
+}
